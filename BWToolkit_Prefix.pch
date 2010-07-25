@@ -4,5 +4,10 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
-    #import <InterfaceBuilderKit/InterfaceBuilderKit.h>
+#endif
+
+
+#if MAC_OS_X_VERSION_MAX_ALLOWED <= MAC_OS_X_VERSION_10_5
+@protocol NSToolbarDelegate <NSObject> @end
+@protocol NSSplitViewDelegate <NSObject> @end
 #endif
