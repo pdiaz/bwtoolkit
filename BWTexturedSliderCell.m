@@ -19,11 +19,11 @@ static NSImage *trackLeftImage, *trackFillImage, *trackRightImage, *thumbPImage,
 	{
 		NSBundle *bundle = [NSBundle bundleForClass:[BWTexturedSliderCell class]];
 
-		trackLeftImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackLeft.tiff"]];
-		trackFillImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackFill.tiff"]];
-		trackRightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackRight.tiff"]];
-		thumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderThumbP.tiff"]];
-		thumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderThumbN.tiff"]];
+		trackLeftImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackLeft.png"]];
+		trackFillImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackFill.png"]];
+		trackRightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderTrackRight.png"]];
+		thumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderThumbP.png"]];
+		thumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderThumbN.png"]];
 	}
 }
 

@@ -24,8 +24,8 @@ static float imageInset = 25;
 	
 	quietSpeakerImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderSpeakerQuiet.png"]];
 	loudSpeakerImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderSpeakerLoud.png"]];
-	smallPhotoImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderPhotoSmall.tif"]];
-	largePhotoImage	= [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderPhotoLarge.tif"]];
+	smallPhotoImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderPhotoSmall.png"]];
+	largePhotoImage	= [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TexturedSliderPhotoLarge.png"]];
 }
 
 - (id)initWithCoder:(NSCoder *)decoder

@@ -26,14 +26,14 @@ static NSColor *disabledColor, *enabledColor;
 {
 	NSBundle *bundle = [NSBundle bundleForClass:[BWTransparentPopUpButtonCell class]];
 	
-	popUpFillN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpFillN.tiff"]];
-	popUpFillP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpFillP.tiff"]];
-	popUpRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpRightN.tiff"]];
-	popUpRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpRightP.tiff"]];
-	popUpLeftN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpLeftN.tiff"]];
-	popUpLeftP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpLeftP.tiff"]];
-	pullDownRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpPullDownRightN.tif"]];
-	pullDownRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpPullDownRightP.tif"]];
+	popUpFillN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpFillN.png"]];
+	popUpFillP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpFillP.png"]];
+	popUpRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpRightN.png"]];
+	popUpRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpRightP.png"]];
+	popUpLeftN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpLeftN.png"]];
+	popUpLeftP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpLeftP.png"]];
+	pullDownRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpPullDownRightN.png"]];
+	pullDownRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentPopUpPullDownRightP.png"]];
 	
 	enabledColor = [[NSColor whiteColor] retain];
 	disabledColor = [[NSColor colorWithCalibratedWhite:0.6 alpha:1] retain];
