@@ -419,8 +419,13 @@ static float scaleFactor = 1.0f;
 		}
 		else
 		{
-			if (hasMinSize)
+			if (hasMinSize) {
 				[self removeMinSizeForCollapsibleSubview];
+                
+                if (uncollapsedSize < [minSize floatValue]) {
+                    uncollapsedSize = [minSize floatValue];
+                }
+            }
 			
 			[NSAnimationContext beginGrouping];
 			[[NSAnimationContext currentContext] setDuration:([self animationDuration])];
@@ -458,8 +463,13 @@ static float scaleFactor = 1.0f;
 		}
 		else
 		{
-			if (hasMinSize)
+			if (hasMinSize) {
 				[self removeMinSizeForCollapsibleSubview];
+            
+                if (uncollapsedSize < [minSize floatValue]) {
+                    uncollapsedSize = [minSize floatValue];
+                }
+            }
 			
 			[NSAnimationContext beginGrouping];
 			[[NSAnimationContext currentContext] setDuration:([self animationDuration])];
