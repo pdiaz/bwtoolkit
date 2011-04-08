@@ -256,16 +256,10 @@
 		CA9454200DE29F0A00F103BC /* BWAnchoredButtonBar.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = CA94541C0DE29E3500F103BC /* BWAnchoredButtonBar.classdescription */; };
 		CA9454210DE29F0A00F103BC /* BWAnchoredButton.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = CA94541D0DE29E4600F103BC /* BWAnchoredButton.classdescription */; };
 		CA9454220DE29F0A00F103BC /* BWAnchoredPopUpButton.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = CA94541E0DE29E5300F103BC /* BWAnchoredPopUpButton.classdescription */; };
-		CA960A500E75F88C00308367 /* BWTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = CA960A4E0E75F88C00308367 /* BWTokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA960A510E75F88C00308367 /* BWTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = CA960A4F0E75F88C00308367 /* BWTokenField.m */; };
-		CA960A540E75F89400308367 /* BWTokenFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CA960A520E75F89400308367 /* BWTokenFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA960A550E75F89400308367 /* BWTokenFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA960A530E75F89400308367 /* BWTokenFieldCell.m */; };
 		CA960A560E75F8D800308367 /* BWTokenField.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = CA960A4A0E75F84700308367 /* BWTokenField.classdescription */; };
 		CA960A570E75F8DD00308367 /* BWTokenFieldCell.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = CA960A4C0E75F85800308367 /* BWTokenFieldCell.classdescription */; };
 		CA960A7E0E76766E00308367 /* NSTokenAttachmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CA960A7C0E76766E00308367 /* NSTokenAttachmentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA960A7F0E76766E00308367 /* NSTokenAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = CA960A7D0E76766E00308367 /* NSTokenAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA960AAB0E7676E000308367 /* BWTokenAttachmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CA960AA90E7676E000308367 /* BWTokenAttachmentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA960AAC0E7676E000308367 /* BWTokenAttachmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA960AAA0E7676E000308367 /* BWTokenAttachmentCell.m */; };
 		CA9918340DF4DA5200FE0577 /* BWButtonBarLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = CA9918330DF4DA5200FE0577 /* BWButtonBarLibrary.nib */; };
 		CA99186C0DF51C9000FE0577 /* Inspector-ButtonBarMode1.tif in Resources */ = {isa = PBXBuildFile; fileRef = CA9918690DF51C9000FE0577 /* Inspector-ButtonBarMode1.tif */; };
 		CA99186D0DF51C9000FE0577 /* Inspector-ButtonBarMode2.tif in Resources */ = {isa = PBXBuildFile; fileRef = CA99186A0DF51C9000FE0577 /* Inspector-ButtonBarMode2.tif */; };
@@ -1454,11 +1448,8 @@
 				CA0D2A260E2F034000E8680C /* NSWindow-NSTimeMachineSupport.h in Headers */,
 				CA685EFF0E68C6CB0003D937 /* BWAddMiniBottomBar.h in Headers */,
 				CA685F210E68C8290003D937 /* BWAddSheetBottomBar.h in Headers */,
-				CA960A500E75F88C00308367 /* BWTokenField.h in Headers */,
-				CA960A540E75F89400308367 /* BWTokenFieldCell.h in Headers */,
 				CA960A7E0E76766E00308367 /* NSTokenAttachmentCell.h in Headers */,
 				CA960A7F0E76766E00308367 /* NSTokenAttachment.h in Headers */,
-				CA960AAB0E7676E000308367 /* BWTokenAttachmentCell.h in Headers */,
 				CA405A700EBF2E400010580A /* BWTransparentScroller.h in Headers */,
 				CA3A18890ECA9E86000C3A43 /* BWTransparentTextFieldCell.h in Headers */,
 				CAEA804D0ED0A73E0062B378 /* BWToolbarItem.h in Headers */,
@@ -1522,7 +1513,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "BWToolkit" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0259C574FE90428111CA0C5A /* BWToolkit */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1741,9 +1739,6 @@
 				CA10ABD90E272748009BA4D7 /* BWTransparentScrollView.m in Sources */,
 				CA685F000E68C6CB0003D937 /* BWAddMiniBottomBar.m in Sources */,
 				CA685F220E68C8290003D937 /* BWAddSheetBottomBar.m in Sources */,
-				CA960A510E75F88C00308367 /* BWTokenField.m in Sources */,
-				CA960A550E75F89400308367 /* BWTokenFieldCell.m in Sources */,
-				CA960AAC0E7676E000308367 /* BWTokenAttachmentCell.m in Sources */,
 				CA405A6F0EBF2E400010580A /* BWTransparentScroller.m in Sources */,
 				CA3A188A0ECA9E86000C3A43 /* BWTransparentTextFieldCell.m in Sources */,
 				CAEA804E0ED0A73E0062B378 /* BWToolbarItem.m in Sources */,
@@ -1973,6 +1968,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = "";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -1990,6 +1986,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = "";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
