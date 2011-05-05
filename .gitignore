@@ -1,2 +1,4 @@
-/BWToolkit.xcodeproj/christian.pbxuser
-/BWToolkit.xcodeproj/christian.perspectivev3
+*.pbxuser
+*.perspectivev3
+*.xcworkspace
+xcuserdata
