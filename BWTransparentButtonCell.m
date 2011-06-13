@@ -26,12 +26,12 @@ static NSColor *disabledColor, *enabledColor;
 {
 	NSBundle *bundle = [NSBundle bundleForClass:[BWTransparentButtonCell class]];
 	
-	buttonLeftN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonLeftN.tiff"]];
-	buttonFillN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonFillN.tiff"]];
-	buttonRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonRightN.tiff"]];
-	buttonLeftP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonLeftP.tiff"]];
-	buttonFillP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonFillP.tiff"]];
-	buttonRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonRightP.tiff"]];
+	buttonLeftN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonLeftN.png"]];
+	buttonFillN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonFillN.png"]];
+	buttonRightN = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonRightN.png"]];
+	buttonLeftP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonLeftP.png"]];
+	buttonFillP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonFillP.png"]];
+	buttonRightP = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentButtonRightP.png"]];
 
 	enabledColor = [[NSColor whiteColor] retain];
 	disabledColor = [[NSColor colorWithCalibratedWhite:0.6 alpha:1] retain];

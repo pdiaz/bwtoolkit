@@ -34,11 +34,11 @@ static float interiorInset = 7.0;
 	insetLineColor = [[[NSColor whiteColor] colorWithAlphaComponent:0.19] retain];
 	
 	NSBundle *bundle = [NSBundle bundleForClass:[BWSplitViewInspectorAutosizingButtonCell class]];
-	blueArrowStart = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowBlueLeft.tif"]];
-	blueArrowEnd = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowBlueRight.tif"]];
-	redArrowStart = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedLeft.tif"]];
-	redArrowFill = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedFill.tif"]];
-	redArrowEnd = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedRight.tif"]];
+	blueArrowStart = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowBlueLeft.png"]];
+	blueArrowEnd = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowBlueRight.png"]];
+	redArrowStart = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedLeft.png"]];
+	redArrowFill = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedFill.png"]];
+	redArrowEnd = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"Inspector-SplitViewArrowRedRight.png"]];
 }
 
 - (void)drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView

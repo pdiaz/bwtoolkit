@@ -14,7 +14,7 @@
 // for the key @"BWClickedItem" in the supplied userInfo dictionary.
 extern NSString * const BWSelectableToolbarItemClickedNotification;
 
-@interface BWSelectableToolbar : NSToolbar 
+@interface BWSelectableToolbar : NSToolbar <NSToolbarDelegate>
 {
 	BWSelectableToolbarHelper *helper;
 	NSMutableArray *itemIdentifiers;

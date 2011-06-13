@@ -18,13 +18,13 @@ static NSImage *trackLeftImage, *trackFillImage, *trackRightImage, *thumbPImage,
 	{
 		NSBundle *bundle = [NSBundle bundleForClass:[BWTransparentSliderCell class]];
 		
-		trackLeftImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackLeft.tiff"]];
-		trackFillImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackFill.tiff"]];
-		trackRightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackRight.tiff"]];
-		thumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderThumbP.tiff"]];
-		thumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderThumbN.tiff"]];
-		triangleThumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTriangleThumbN.tiff"]];
-		triangleThumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTriangleThumbP.tiff"]];
+		trackLeftImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackLeft.png"]];
+		trackFillImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackFill.png"]];
+		trackRightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTrackRight.png"]];
+		thumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderThumbP.png"]];
+		thumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderThumbN.png"]];
+		triangleThumbNImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTriangleThumbN.png"]];
+		triangleThumbPImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"TransparentSliderTriangleThumbP.png"]];
 	}
 }
 

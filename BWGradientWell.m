@@ -20,7 +20,7 @@ static NSImage *pattern;
 	borderColor = [[NSColor colorWithCalibratedWhite:(121.0 / 255.0) alpha:1] retain];
 	
 	NSBundle *bundle = [NSBundle bundleForClass:[BWGradientWell class]];
-	pattern = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"GradientWellPattern.tif"]];
+	pattern = [[NSImage alloc] initWithContentsOfFile:[bundle pathForImageResource:@"GradientWellPattern.png"]];
 }
 
 - (void)drawRect:(NSRect)rect
