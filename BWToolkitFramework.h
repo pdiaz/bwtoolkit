@@ -24,9 +24,13 @@
 #import "BWStyledTextFieldCell.h"
 #import "BWTexturedSlider.h"
 #import "BWTexturedSliderCell.h"
+
+#ifdef BWTokenField
 #import "BWTokenAttachmentCell.h"
 #import "BWTokenField.h"
 #import "BWTokenFieldCell.h"
+#endif
+
 #import "BWToolbarItem.h"
 #import "BWToolbarShowColorsItem.h"
 #import "BWToolbarShowFontsItem.h"

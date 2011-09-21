@@ -434,7 +434,7 @@ static float scaleFactor = 1.0f;
 			[NSAnimationContext endGrouping];
 	
 			if (hasMinSize)
-				[self performSelector:@selector(setMinSizeForCollapsibleSubview:) withObject:minSize afterDelay:[self animationDuration]];
+				[self performSelector:@selector(setMinSizeForCollapsibleSubview:) withObject:minSize afterDelay:[self animationDuration] + 0.1];
 			
 			[self setCollapsibleSubviewCollapsed:NO];
 		}
@@ -485,10 +485,10 @@ static float scaleFactor = 1.0f;
 	}
 	
 	isAnimating = YES;
-	[self performSelector:@selector(animationEnded) withObject:nil afterDelay:[self animationDuration]];
-	[self performSelector:@selector(restoreAutoresizesSubviews:) withObject:[NSNumber numberWithBool:autoresizesSubviews] afterDelay:[self animationDuration]];
+	[self performSelector:@selector(animationEnded) withObject:nil afterDelay:[self animationDuration] + 0.1];
+	[self performSelector:@selector(restoreAutoresizesSubviews:) withObject:[NSNumber numberWithBool:autoresizesSubviews] afterDelay:[self animationDuration] + 0.1];
 	
-	[self performSelector:@selector(resizeAndAdjustSubviews) withObject:nil afterDelay:[self animationDuration]];
+	[self performSelector:@selector(resizeAndAdjustSubviews) withObject:nil afterDelay:[self animationDuration] + 0.1];
 }
 
 #pragma mark Mouse Tracking Methods
